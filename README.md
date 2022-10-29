@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # account
 
 [![CI Status](https://img.shields.io/travis/yuxin.she/account.svg?style=flat)](https://travis-ci.org/yuxin.she/account)
@@ -27,3 +28,6 @@ yuxin.she, yuxin.she@anker-in.com
 ## License
 
 account is available under the MIT license. See the LICENSE file for more info.
+=======
+# account
+>>>>>>> 55c1e9686903a397a13cbff83b509d3e88ce15e3
