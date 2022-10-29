@@ -1,0 +1,16 @@
+PODS:
+  - account (0.1.0)
+
+DEPENDENCIES:
+  - account (from `../`)
+
+EXTERNAL SOURCES:
+  account:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  account: 94ab7b5971226a9d5ac9a3ae65b59520b489305f
+
+PODFILE CHECKSUM: e6e3cb67fadcc8a7aa61bbe2a6333866761d1ade
+
+COCOAPODS: 1.11.3

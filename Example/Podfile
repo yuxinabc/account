@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'account_Example' do
   pod 'account', :path => '../'
+  pod 'MGJRouter_Swift'
 
   target 'account_Tests' do
     inherit! :search_paths

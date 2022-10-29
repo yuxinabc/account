@@ -1,0 +1,22 @@
+{
+  "name": "account",
+  "version": "0.1.0",
+  "summary": "A short description of account.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuxin.she/account",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuxin.she": "yuxin.she@anker-in.com"
+  },
+  "source": {
+    "git": "https://github.com/yuxin.she/account.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "account/Classes/**/*"
+}
