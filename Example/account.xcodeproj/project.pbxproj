@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		080A16A3AEAEDB4F631F8B54 /* Pods-account_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-account_Tests.release.xcconfig"; path = "Target Support Files/Pods-account_Tests/Pods-account_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		33F4899CC4C41569B3193192 /* Pods_account_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_account_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B6FDB4494EFCFFB42461D5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3B6FDB4494EFCFFB42461D5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3CB75107D00887A9E8A4D327 /* Pods_account_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_account_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* account_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = account_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		607FACE51AFB9204008FA782 /* account_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = account_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9BB41CCFECCC012645A64E83 /* account.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = account.podspec; path = ../account.podspec; sourceTree = "<group>"; };
-		C2F42B5C10D13B21D20D8114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9BB41CCFECCC012645A64E83 /* account.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = account.podspec; path = ../account.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2F42B5C10D13B21D20D8114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DB363DBC00598D904D18834C /* Pods-account_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-account_Example.release.xcconfig"; path = "Target Support Files/Pods-account_Example/Pods-account_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F33FCEF1CA4D9EE4A633F205 /* Pods-account_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-account_Example.debug.xcconfig"; path = "Target Support Files/Pods-account_Example/Pods-account_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F67D2E1F1CF557E2C7BDD48C /* Pods-account_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-account_Tests.debug.xcconfig"; path = "Target Support Files/Pods-account_Tests/Pods-account_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				F67D2E1F1CF557E2C7BDD48C /* Pods-account_Tests.debug.xcconfig */,
 				080A16A3AEAEDB4F631F8B54 /* Pods-account_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

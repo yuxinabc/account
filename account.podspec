@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'account'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of account.'
+  s.summary          = '这是模拟账号模块'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yuxin.she/account'
+  s.homepage         = 'https://github.com/yuxinabc/account'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yuxin.she' => 'yuxin.she@anker-in.com' }
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'account/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'account' => ['account/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#     'account' => ['account/Assets/*.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking', '~> 2.3'
 end
